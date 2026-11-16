@@ -1,0 +1,74 @@
+.stApp {
+    background-color: #edf6f6;
+    background-image:
+        linear-gradient(120deg, rgba(248, 252, 252, .91), rgba(235, 246, 247, .88)),
+        url("__MEDICAL_BACKGROUND__");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.stMainBlockContainer {
+    padding-top: 1.6rem;
+}
+
+header[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, .48);
+}
+
+section[data-testid="stSidebar"] {
+    background: rgba(240, 248, 248, .94);
+    border-right: 1px solid rgba(15, 103, 111, .12);
+}
+
+.brand-header {
+    align-items: center;
+    background: linear-gradient(110deg, #075e67, #087f8c);
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(13, 74, 81, .16);
+    color: white;
+    display: flex;
+    gap: 14px;
+    margin: 0 0 1.5rem;
+    padding: 16px 22px;
+}
+
+.brand-mark {
+    align-items: center;
+    background: rgba(255, 255, 255, .16);
+    border: 1px solid rgba(255, 255, 255, .38);
+    border-radius: 12px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    width: 48px;
+}
+
+.brand-name {
+    font-size: 1.4rem;
+    font-weight: 750;
+    letter-spacing: .045em;
+}
+
+.brand-subtitle {
+    color: rgba(255, 255, 255, .8);
+    font-size: .88rem;
+    margin-top: 2px;
+}
+
+.stForm {
+    background: rgba(255, 255, 255, .88);
+    border: 1px solid rgba(15, 103, 111, .14);
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(31, 74, 77, .08);
+    padding: 1.25rem;
+}
+
+div[data-testid="stMetric"],
+div[data-testid="stAlert"] {
+    background-color: rgba(255, 255, 255, .82);
+    border-radius: 12px;
+}
