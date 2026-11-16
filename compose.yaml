@@ -1,0 +1,17 @@
+services:
+  sha-xfd:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      SHA_XFD_USERS: ${SHA_XFD_USERS:?Set SHA_XFD_USERS before starting}
+    volumes:
+      - claims-data:/app/dataset
+      - model-artifacts:/app/artifacts
+      - app-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  claims-data:
+  model-artifacts:
+  app-data:
